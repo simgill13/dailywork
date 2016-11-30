@@ -256,7 +256,17 @@
 
 //	FOR EAC,FILTER AND MAP
 
-var turmov = [ [0, 0], [0, 5], [-1, -3], [-3, 1], [2, -4],[3, 2]];
+// var turmov = [ [0, 0], [0, 5], [-1, -3], [-3, 1], [2, -4],[3, 2]];
 
-document.write (turmov [0][3]);
+// document.write (turmov [0][3]);
 
+
+
+
+var outer = 'abc';
+var fn = function() {
+  var inner = 'def';
+  console.log(outer);
+};
+fn();
+console.log(inner);
