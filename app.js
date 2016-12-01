@@ -207,7 +207,7 @@
 // console.log(decode("droop"));
 
 
-// Tuesday's work 
+// -------------------------------Tuesday's work DAY 2------------------------------------
 
 
 //HighorderFunction FIRST EXERCISE
@@ -262,11 +262,214 @@
 
 
 
+//--------------------------------------DAY 3-------------------------------------
 
-var outer = 'abc';
-var fn = function() {
-  var inner = 'def';
-  console.log(outer);
-};
-fn();
-console.log(inner);
+
+//OBJECTS - FIRST EXERCISE
+
+// function createMyObject()
+// {
+//   var randomlist = {
+//     foo: 'bar',
+//     answerToUniverse: 42,
+//     "olly olly": 'oxen free',
+//     sayHello: function(){
+// //       console.log("hello");
+//           return ("hello");
+//   } 
+//   }
+  
+//   return randomlist;
+// };
+// // console.log(createMyObject());
+
+// var output = createMyObject();
+// console.log (output);
+
+
+
+// OBJECT - SECOND EXERCISE
+
+
+// function updateObject(obj) {
+//   obj.foo = 'foo';
+//   obj['bar'] = 'bar';
+//   obj.bizz = 'bizz';
+//   obj.bang = 'bang';
+//   return obj;
+// }
+
+
+
+//OBJECT -THIRD EXERCISE = SELF REFERENCE
+// function personMaker() {
+//   var person = {
+//     firstName: 'Paul',
+//     lastName: 'Jones',
+   
+//     fullName: function(){
+//               return this.firstName + ' ' + this.lastName;
+            
+
+//     }
+//   };
+//   return person;
+// }
+
+
+//OBJECT -FOURTH EXERCISE = DELETING KEYS
+
+// function keyDeleter(obj) {
+//   delete sampleObj.foo;
+//   delete sampleObj.bar;
+//   return sampleObj;
+// }
+
+
+// var sampleObj = {
+//   foo: 'foo',
+//   bar: 'bar',
+//   bizz: 'bizz',
+//   bang: 'bang'
+// };
+
+
+
+// OBJECT DRILLS 
+//1
+
+// var loaf = {
+//   flour: 300,
+//   water: 210,
+//   hydration: function(){
+//     return (loaf.water / loaf.flour) * 100;
+//   }
+ 
+// }
+
+// console.log(loaf.hydration())
+
+
+
+
+//OBJECT DRILLS 2 Iterating over an object's properties
+
+// var objFiveProp = {
+//   foo: 3,
+//   bar: 2,
+//   fum: 1,
+//   quux: 5,
+//   spam: 32,
+// }
+
+// for (var key in objFiveProp) {
+//   console.log(key + ' ' +objFiveProp[key]);
+// }
+
+
+//OBJECTS DRILLS 3  ARRAYS IN OBJECTS
+
+
+
+// var food = {
+//  meals: ['breakfast', 'second breakfast','elevenses', 'lunch','afternoon tea', 'dinner', 'supper'], 
+  
+// }
+
+// console.log(food.meals[3]);
+
+
+//OBJECTS DRILLS 4  ARRAYS IN OBJECTS
+
+
+
+// var employees = [
+  
+//   {
+//     name: 'Peter',
+//     job_title: 'Web Engineer'
+//   },
+  
+//    {
+//     name: 'John',
+//     job_title: 'Engineer'
+//   },
+  
+//    {
+//     name: 'Charles',
+//     job_title: 'BackEnd Engineer'
+//   },
+  
+//    {
+//     name: 'Simon',
+//     job_title: 'Web Developer'
+//   },
+  
+//    {
+//     name: 'Chris',
+//     job_title: 'Programmer'
+//   }
+  
+// ];
+
+// employees.forEach(function(val){
+//   console.log(val.name + '' + val.job_title);
+  
+// })
+
+
+//OBJECTS DRILLS 5  ARRAYS IN OBJECTS--- Myoption
+
+// var employees = [
+  
+//   {
+//     name: 'Peter',
+//     job_title: 'Web Engineer',
+//     boss:'Simon',
+//   },
+  
+//    {
+//     name: 'John',
+//     job_title: 'Engineer',
+//      boss: 'Peter',
+//   },
+  
+//    {
+//     name: 'Charles',
+//     job_title: 'BackEnd Engineer',
+//      boss: 'Simon',
+//   },
+  
+//    {
+//     name: 'tim',
+//     job_title: 'Web Developer',
+//      boss: 'John',
+//   },
+  
+//    {
+//     name: 'Chris',
+//     job_title: 'Programmer',
+//      boss: 'Simon',
+//   },
+  
+//   {
+//     name: 'Simon',
+//     job_title:'Owner',
+    
+//   },
+  
+// ];
+
+// employees.forEach(function(val){
+  
+  
+//   if (val.boss === undefined){
+//     console.log(val.job_title +" "+ val.name +" "+ "doesn't report to anybody");
+//   }
+//   else console.log(val.job_title +" "+  val.name +' '+ 'reports to '+ val.boss);
+  
+  
+  
+// })
+
+
