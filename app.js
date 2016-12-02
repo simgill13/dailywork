@@ -265,7 +265,7 @@
 //--------------------------------------DAY 3-------------------------------------
 
 
-//OBJECTS - FIRST EXERCISE
+// OBJECTS - FIRST EXERCISE
 
 // function createMyObject()
 // {
@@ -301,7 +301,7 @@
 
 
 
-//OBJECT -THIRD EXERCISE = SELF REFERENCE
+// OBJECT -THIRD EXERCISE = SELF REFERENCE
 // function personMaker() {
 //   var person = {
 //     firstName: 'Paul',
